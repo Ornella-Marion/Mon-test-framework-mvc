@@ -24,7 +24,7 @@
         <h1> TEST ULTIME : Sprint 8 + 8-bis + 10</h1>
         
         <div class="info">
-            <strong style="font-size:18px">🎯 Le test qui combine TOUT !</strong><br><br>
+            <strong style="font-size:18px"> Le test qui combine TOUT !</strong><br><br>
             Ce formulaire teste simultanément :<br>
              Sprint 8-bis : Objet <code>Employee</code><br>
              Sprint 8 : <code>Map&lt;String, Object&gt;</code> pour les métadonnées<br>

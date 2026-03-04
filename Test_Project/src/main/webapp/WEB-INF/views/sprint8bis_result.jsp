@@ -30,7 +30,7 @@
         %>
         
         <div class="success">
-            <h3 style="margin-top:0">👤 Employé créé automatiquement :</h3>
+            <h3 style="margin-top:0"> Employé créé automatiquement :</h3>
             
             <table>
                 <tr>
@@ -60,7 +60,7 @@
                 if (dept != null) {
             %>
             <div class="nested">
-                <h4 style="margin-top:0">🏢 Département (objet imbriqué) :</h4>
+                <h4 style="margin-top:0"> Département (objet imbriqué) :</h4>
                 <table>
                     <tr>
                         <td><strong>Nom :</strong></td>
@@ -85,7 +85,7 @@
                 if (hobbies != null && !hobbies.isEmpty()) {
             %>
             <div class="nested">
-                <h4 style="margin-top:0">🎯 Hobbies (liste) :</h4>
+                <h4 style="margin-top:0"> Hobbies (liste) :</h4>
                 <ul>
                     <% for (String hobby : hobbies) { %>
                         <li><%= hobby %></li>
@@ -117,7 +117,7 @@
             } else {
         %>
         <div style="background:#f8d7da;padding:15px;border-radius:8px;color:#721c24">
-            ❌ Aucun employé reçu (objet null)
+             Aucun employé reçu (objet null)
         </div>
         <%
             }

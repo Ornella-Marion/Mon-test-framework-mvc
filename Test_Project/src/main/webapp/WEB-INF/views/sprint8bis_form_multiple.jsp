@@ -40,7 +40,7 @@
         <form action="/test-framework-mvc/sprint8bis/save-multiple" method="POST">
             
             <div class="section" style="border-left:4px solid #e74c3c">
-                <h3 style="margin-top:0;color:#e74c3c">👤 Objet 1 : Employee</h3>
+                <h3 style="margin-top:0;color:#e74c3c"> Objet 1 : Employee</h3>
                 
                 <div class="form-group">
                     <label>Nom de l'employé (e.nom) :</label>
@@ -59,7 +59,7 @@
             </div>
 
             <div class="section" style="border-left:4px solid #3498db">
-                <h3 style="margin-top:0;color:#3498db">🏢 Objet 2 : Department</h3>
+                <h3 style="margin-top:0;color:#3498db"> Objet 2 : Department</h3>
                 
                 <div class="form-group">
                     <label>Nom du département (d.nom) :</label>
@@ -78,7 +78,7 @@
             </div>
 
             <div class="section" style="border-left:4px solid #f39c12">
-                <h3 style="margin-top:0;color:#f39c12">🔢 Paramètre 3 : Integer</h3>
+                <h3 style="margin-top:0;color:#f39c12"> Paramètre 3 : Integer</h3>
                 
                 <div class="form-group">
                     <label>ID (id) :</label>

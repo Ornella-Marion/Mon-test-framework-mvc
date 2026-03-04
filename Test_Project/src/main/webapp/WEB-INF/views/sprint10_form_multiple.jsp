@@ -48,7 +48,7 @@
             </div>
 
             <div class="section">
-                <h3 style="margin-top:0;color:#3498db">📄 Document (PDF, Word, etc.)</h3>
+                <h3 style="margin-top:0;color:#3498db"> Document (PDF, Word, etc.)</h3>
                 <div class="form-group">
                     <label>Fichier document (name="document") :</label>
                     <input type="file" name="document" accept=".pdf,.doc,.docx,.txt">
@@ -56,7 +56,7 @@
             </div>
 
             <div class="section">
-                <h3 style="margin-top:0;color:#3498db">🖼️ Image (Photo, logo, etc.)</h3>
+                <h3 style="margin-top:0;color:#3498db"> Image (Photo, logo, etc.)</h3>
                 <div class="form-group">
                     <label>Fichier image (name="image") :</label>
                     <input type="file" name="image" accept="image/*">
@@ -69,10 +69,10 @@
         <div style="background:#e7f3ff;padding:15px;border-radius:8px;margin:20px 0">
             <strong> Magie du framework :</strong>
             <ul style="margin:10px 0">
-                <li>✅ Le framework détecte les 2 fichiers uploadés</li>
-                <li>✅ Il crée 2 objets <code>FileUpload</code> distincts</li>
-                <li>✅ Il les injecte dans les bons paramètres selon le <code>name</code></li>
-                <li>✅ Le contrôleur reçoit : <code>document</code>, <code>image</code>, <code>titre</code></li>
+                <li> Le framework détecte les 2 fichiers uploadés</li>
+                <li> Il crée 2 objets <code>FileUpload</code> distincts</li>
+                <li> Il les injecte dans les bons paramètres selon le <code>name</code></li>
+                <li> Le contrôleur reçoit : <code>document</code>, <code>image</code>, <code>titre</code></li>
             </ul>
         </div>
 

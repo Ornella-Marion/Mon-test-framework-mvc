@@ -77,19 +77,19 @@
                 
                 <div class="checkbox-group">
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Programmation" checked> 💻 Programmation
+                        <input type="checkbox" name="e.hobbies" value="Programmation" checked>  Programmation
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Lecture technique" checked> 📚 Lecture technique
+                        <input type="checkbox" name="e.hobbies" value="Lecture technique" checked>  Lecture technique
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Veille technologique" checked> 🔍 Veille technologique
+                        <input type="checkbox" name="e.hobbies" value="Veille technologique" checked>  Veille technologique
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Sport"> ⚽ Sport
+                        <input type="checkbox" name="e.hobbies" value="Sport">  Sport
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Voyage"> ✈️ Voyage
+                        <input type="checkbox" name="e.hobbies" value="Voyage">  Voyage
                     </label>
                 </div>
             </div>
@@ -98,7 +98,7 @@
         </form>
 
         <div style="margin-top:30px;background:#d4edda;padding:20px;border-radius:8px;border-left:4px solid#27ae60">
-            <strong style="font-size:16px">✨ Ce que fait le framework automatiquement :</strong>
+            <strong style="font-size:16px"> Ce que fait le framework automatiquement :</strong>
             <ol style="margin:15px 0;line-height:1.8">
                 <li>Détecte que <code>e</code> est un objet <code>Employee</code></li>
                 <li>Crée une instance : <code>Employee e = new Employee()</code></li>

@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="box">
-        <h1>🎯 ${titre}</h1>
+        <h1> ${titre}</h1>
         <div class="info">
             <p><strong>Pattern :</strong> <code>${urlPattern}</code></p>
             <p><strong>ID extrait :</strong> ${id}</p>

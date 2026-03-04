@@ -35,7 +35,7 @@
         <!-- Objet 1 : Employee -->
         <% if (employee != null) { %>
         <div class="object-section">
-            <h3 style="margin-top:0;color:#9b59b6">👤 Objet 1 : Employee e</h3>
+            <h3 style="margin-top:0;color:#9b59b6"> Objet 1 : Employee e</h3>
             <table>
                 <tr>
                     <th>Attribut</th>
@@ -60,7 +60,7 @@
         <!-- Objet 2 : Department -->
         <% if (department != null) { %>
         <div class="object-section" style="border-left-color:#3498db">
-            <h3 style="margin-top:0;color:#3498db">🏢 Objet 2 : Department d</h3>
+            <h3 style="margin-top:0;color:#3498db"> Objet 2 : Department d</h3>
             <table>
                 <tr>
                     <th>Attribut</th>
@@ -94,7 +94,7 @@
         <!-- Paramètre 3 : Integer -->
         <% if (id != null) { %>
         <div class="object-section" style="border-left-color:#e74c3c">
-            <h3 style="margin-top:0;color:#e74c3c">🔢 Paramètre 3 : Integer id</h3>
+            <h3 style="margin-top:0;color:#e74c3c"> Paramètre 3 : Integer id</h3>
             <p style="font-size:20px;margin:10px 0"><strong>Valeur :</strong> <%= id %></p>
             <p style="color:#666;font-size:14px">Type : Integer (converti automatiquement depuis String)</p>
         </div>

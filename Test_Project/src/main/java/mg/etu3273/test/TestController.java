@@ -11,12 +11,12 @@ import mg.etu3273.framework.annotation.Url;
 public class TestController {
     @Url("/test/hello")
     public String hello() {
-        return "✅ Sprint 1-2 : Mapping URL → Méthode fonctionne !";
+        return " Sprint 1-2 : Mapping URL → Méthode fonctionne !";
     }
 
     @Url("/test/list")
     public String list() {
-        return "✅ Sprint 3-4 : Scan automatique et invocation par réflexion fonctionnent !";
+        return " Sprint 3-4 : Scan automatique et invocation par réflexion fonctionnent !";
     }
 
     @Url("/test/view")
@@ -105,7 +105,7 @@ public class TestController {
 
     /* @Url("/test/save-map")
     public ModelView saveWithMap(Map<String, Object> params) {
-        System.out.println("📦 SPRINT 8 - Paramètres reçus dans Map:");
+        System.out.println(" SPRINT 8 - Paramètres reçus dans Map:");
         
         String nom = (String) params.get("nom");
         String ageStr = (String) params.get("age");
@@ -127,14 +127,14 @@ public class TestController {
         mv.addObject("titre", "Sprint 8 : Map<String, Object>");
         mv.addObject("nom", nom);
         mv.addObject("age", age);
-        mv.addObject("ville", villeObj); // ✅ On envoie l'objet tel quel à la JSP
+        mv.addObject("ville", villeObj); //  On envoie l'objet tel quel à la JSP
         mv.addObject("sprint", "Sprint 8 - Map<String, Object>");
         return mv;
     } */
 
   /*   @Url("/test/save-mixed")
     public ModelView saveMixed(Map<String, Object> params, @RequestParam("priority") String priority) {
-        System.out.println("📦 SPRINT 8 - Mode mixte:");
+        System.out.println(" SPRINT 8 - Mode mixte:");
         System.out.println("   Map contient: " + params.keySet());
         System.out.println("   Paramètre priority: " + priority);
         
@@ -173,7 +173,7 @@ public ModelView saveMixed(Map<String, Object> params, String priority) {
 
 @Url("/test/save-advanced")
 public ModelView saveAdvanced(Map<String, Object> params, Integer id, String action) {
-    System.out.println("📦 SPRINT 8 - Mode avancé:");
+    System.out.println(" SPRINT 8 - Mode avancé:");
     System.out.println("   - Map: " + params.keySet());
     System.out.println("   - ID: " + id);
     System.out.println("   - Action: " + action);
