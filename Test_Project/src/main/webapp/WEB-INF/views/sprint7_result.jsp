@@ -14,13 +14,13 @@
 </head>
 <body>
     <div class="box">
-        <h1>✅ ${titre}</h1>
+        <h1> ${titre}</h1>
         <span class="method">${method}</span>
         <div class="success">
             <p><strong>Nom :</strong> ${nom}</p>
             <p><strong>Email :</strong> ${email}</p>
         </div>
-        <p>✅ Sprint 7 : Méthode HTTP ${method} utilisée avec succès</p>
+        <p> Sprint 7 : Méthode HTTP ${method} utilisée avec succès</p>
         <a href="/test-framework-mvc/sprint7/form" style="color:#3498db">← Retour</a>
     </div>
 </body>

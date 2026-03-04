@@ -112,7 +112,7 @@
             border-bottom: none;
         }
         .info li:before {
-            content: "✅ ";
+            content: "FAHH ";
             margin-right: 10px;
         }
     </style>
@@ -270,7 +270,7 @@ public Employee getEmployeeFull(Integer id) {
         function testAPI(url, resultId) {
             const resultDiv = document.getElementById(resultId);
             resultDiv.style.display = 'block';
-            resultDiv.innerHTML = '<p>⏳ Chargement...</p>';
+            resultDiv.innerHTML = '<p> Chargement...</p>';
             
             fetch(url)
                 .then(response => response.json())

@@ -51,19 +51,19 @@
                 <label>Hobbies (cochez plusieurs) :</label>
                 <div class="checkbox-group">
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Lecture" checked> 📚 Lecture
+                        <input type="checkbox" name="e.hobbies" value="Lecture" checked>  Lecture
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Sport" checked> ⚽ Sport
+                        <input type="checkbox" name="e.hobbies" value="Sport" checked>  Sport
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Musique"> 🎵 Musique
+                        <input type="checkbox" name="e.hobbies" value="Musique">  Musique
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Cuisine"> 🍳 Cuisine
+                        <input type="checkbox" name="e.hobbies" value="Cuisine">  Cuisine
                     </label>
                     <label class="checkbox-item">
-                        <input type="checkbox" name="e.hobbies" value="Voyage"> ✈️ Voyage
+                        <input type="checkbox" name="e.hobbies" value="Voyage">  Voyage
                     </label>
                 </div>
             </div>

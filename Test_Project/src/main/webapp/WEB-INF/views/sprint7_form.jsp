@@ -20,10 +20,10 @@
 </head>
 <body>
     <div class="box">
-        <h1>🚀 ${titre}</h1>
+        <h1> ${titre}</h1>
         <span class="method GET">GET</span>
         <div class="info">
-            <strong>🎯 Sprint 7 :</strong> Cette page est affichée via <strong>GET</strong>. 
+            <strong> Sprint 7 :</strong> Cette page est affichée via <strong>GET</strong>. 
             Le formulaire utilisera <strong>POST</strong> sur la même URL !
         </div>
         <form action="/test-framework-mvc/sprint7/form" method="POST">
@@ -35,7 +35,7 @@
                 <label>Email :</label>
                 <input type="email" name="email" required>
             </div>
-            <button type="submit">💾 Enregistrer (POST)</button>
+            <button type="submit"> Enregistrer (POST)</button>
         </form>
         <p style="margin-top:20px;color:#666">
             <span class="method GET">GET</span> /sprint7/form → showForm()<br>

@@ -149,7 +149,6 @@
             String savedPath = (String) request.getAttribute("savedPath");
         %>
         
-        <!-- Bannière de succès/erreur -->
         <% if (success != null && success) { %>
         <div class="success-banner">
             <span class="icon"></span> SUCCÈS TOTAL ! Toutes les données ont été traitées et le CV a été sauvegardé !
@@ -160,7 +159,6 @@
         </div>
         <% } %>
 
-        <!-- Section 1 : Employee (Sprint 8-bis) -->
         <div class="section section-employee">
             <h3><span class="icon"></span> Employé (Sprint 8-bis : Objet)</h3>
             <% if (employee != null) { %>
@@ -190,7 +188,6 @@
             <% } %>
         </div>
 
-        <!-- Section 2 : Métadonnées (Sprint 8) -->
         <div class="section section-meta">
             <h3><span class="icon"></span> Métadonnées (Sprint 8 : Map&lt;String, Object&gt;)</h3>
             <% if (meta != null && !meta.isEmpty()) { %>
@@ -236,7 +233,6 @@
             <% } %>
         </div>
 
-        <!-- Section 3 : CV (Sprint 10) -->
         <div class="section section-file">
             <h3><span class="icon"></span> CV (Sprint 10 : FileUpload)</h3>
             <% if (cvName != null) { %>
@@ -272,7 +268,6 @@
             <% } %>
         </div>
 
-        <!-- Récapitulatif -->
         <div class="recap">
             <h3 style="margin-top:0;color:#333"><span class="icon"></span> Récapitulatif du Test Ultime</h3>
             <ol style="line-height:1.8;font-size:15px">
@@ -289,7 +284,6 @@
             </ol>
         </div>
 
-        <!-- Informations techniques -->
         <div style="background:#f8f9fa;padding:20px;border-radius:8px;margin:20px 0;border:2px solid #667eea">
             <h4 style="margin-top:0;color:#667eea"> Ce que le framework a fait :</h4>
             <ol style="line-height:2;font-size:14px">
@@ -305,7 +299,6 @@
             </ol>
         </div>
 
-        <!-- Actions -->
         <div style="text-align:center;margin-top:30px">
             <a href="/test-framework-mvc/sprint10/form-ultimate" class="back-link">
                 ← Retour au formulaire

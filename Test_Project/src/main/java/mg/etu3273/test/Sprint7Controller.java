@@ -26,7 +26,7 @@ public class Sprint7Controller {
         return mv;
     }
 
-    // ==================== Exemple 2 : String simple ====================
+    
     
     @GetUrl("/sprint7/hello")
     public String helloGet() {
@@ -38,14 +38,14 @@ public class Sprint7Controller {
         return "🔵 Sprint 7 : Réponse POST";
     }
 
-    // ==================== Exemple 3 : @Url (rétro-compatible) ====================
+    
     
     @Url("/sprint7/legacy")
     public String legacy() {
         return "⚪ Sprint 7 : @Url accepte GET et POST";
     }
 
-    // ==================== Exemple 4 : URL dynamique avec GET/POST ====================
+   
     
     @GetUrl("/sprint7/user/{id}")
     public ModelView getUserGet(Integer id) {

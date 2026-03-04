@@ -29,7 +29,7 @@ public class Sprint10Controller {
 
     @PostUrl("/sprint10/upload-single")
     public ModelView uploadSingle(FileUpload photo, String description) {
-        System.out.println("📤 SPRINT 10 - Upload single:");
+        System.out.println(" SPRINT 10 - Upload single:");
         System.out.println("   - Fichier: " + (photo != null ? photo.getName() : "null"));
         System.out.println("   - Description: " + description);
         
@@ -70,7 +70,7 @@ public class Sprint10Controller {
 
     @PostUrl("/sprint10/upload-multiple")
     public ModelView uploadMultiple(FileUpload document, FileUpload image, String titre) {
-        System.out.println("📤 SPRINT 10 - Upload multiple:");
+        System.out.println(" SPRINT 10 - Upload multiple:");
         System.out.println("   - Document: " + (document != null ? document.getName() : "null"));
         System.out.println("   - Image: " + (image != null ? image.getName() : "null"));
         System.out.println("   - Titre: " + titre);
@@ -124,7 +124,7 @@ public class Sprint10Controller {
 
     @PostUrl("/sprint10/upload-with-object")
     public ModelView uploadWithObject(mg.etu3273.test.model.Employee e, FileUpload cv) {
-        System.out.println("📤 SPRINT 10 - Upload avec objet:");
+        System.out.println(" SPRINT 10 - Upload avec objet:");
         System.out.println("   - Employee: " + (e != null ? e.getNom() : "null"));
         System.out.println("   - CV: " + (cv != null ? cv.getName() : "null"));
         
@@ -164,7 +164,7 @@ public class Sprint10Controller {
 
     @PostUrl("/sprint10/upload-with-map")
     public ModelView uploadWithMap(java.util.Map<String, Object> params, FileUpload fichier) {
-        System.out.println("📤 SPRINT 10 - Upload avec Map:");
+        System.out.println(" SPRINT 10 - Upload avec Map:");
         System.out.println("   - Params: " + params.keySet());
         System.out.println("   - Fichier: " + (fichier != null ? fichier.getName() : "null"));
         
@@ -198,7 +198,7 @@ public class Sprint10Controller {
     public ModelView uploadUltimate(mg.etu3273.test.model.Employee e, 
                                    java.util.Map<String, Object> meta, 
                                    FileUpload cv) {
-        System.out.println("📤 SPRINT 10 - TEST ULTIME:");
+        System.out.println(" SPRINT 10 - TEST ULTIME:");
         System.out.println("   - Employee: " + (e != null ? e.getNom() : "null"));
         System.out.println("   - Meta: " + (meta != null ? meta.keySet() : "null"));
         System.out.println("   - CV: " + (cv != null ? cv.getName() : "null"));

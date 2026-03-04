@@ -23,7 +23,7 @@ public class Sprint9Controller {
     @RestAPI
     @GetUrl("/api/employee/{id}")
     public Employee getEmployee(Integer id) {
-        System.out.println("📡 API: getEmployee(" + id + ")");
+        System.out.println(" API: getEmployee(" + id + ")");
         
         Employee e = new Employee();
         e.setNom("Jean Rakoto");
@@ -37,7 +37,7 @@ public class Sprint9Controller {
     @RestAPI
     @GetUrl("/api/employees")
     public List<Employee> getEmployees() {
-        System.out.println("📡 API: getEmployees()");
+        System.out.println(" API: getEmployees()");
         
         List<Employee> employees = new ArrayList<>();
         
@@ -66,7 +66,7 @@ public class Sprint9Controller {
     @RestAPI
     @GetUrl("/api/message")
     public String getMessage() {
-        System.out.println("📡 API: getMessage()");
+        System.out.println(" API: getMessage()");
         return "Hello from REST API!";
     }
 
@@ -74,7 +74,7 @@ public class Sprint9Controller {
     @RestAPI
     @GetUrl("/api/count")
     public Integer getCount() {
-        System.out.println("📡 API: getCount()");
+        System.out.println(" API: getCount()");
         return 42;
     }
 
@@ -82,7 +82,7 @@ public class Sprint9Controller {
     @RestAPI
     @GetUrl("/api/data")
     public ModelView getData() {
-        System.out.println("📡 API: getData() avec ModelView");
+        System.out.println(" API: getData() avec ModelView");
         
         ModelView mv = new ModelView();
         mv.addObject("name", "Jean Rakoto");
@@ -96,7 +96,7 @@ public class Sprint9Controller {
     @RestAPI
     @GetUrl("/api/employee-full/{id}")
     public Employee getEmployeeFull(Integer id) {
-        System.out.println("📡 API: getEmployeeFull(" + id + ")");
+        System.out.println(" API: getEmployeeFull(" + id + ")");
         
         Employee e = new Employee();
         e.setNom("Sophie Andrianina");
@@ -122,7 +122,7 @@ public class Sprint9Controller {
     @RestAPI
     @GetUrl("/api/departments")
     public List<Department> getDepartments() {
-        System.out.println("📡 API: getDepartments()");
+        System.out.println(" API: getDepartments()");
         
         List<Department> departments = new ArrayList<>();
         
@@ -150,7 +150,7 @@ public class Sprint9Controller {
 
     @GetUrl("/web/employees")
     public ModelView getEmployeesWeb() {
-        System.out.println("🌐 WEB: getEmployeesWeb() - Mode classique (JSP)");
+        System.out.println(" WEB: getEmployeesWeb() - Mode classique (JSP)");
         
         List<Employee> employees = new ArrayList<>();
         
